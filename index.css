@@ -1,0 +1,30 @@
+<head>
+  <style>
+
+     ul {
+      list-style-type: none;
+      display: inline-block;
+      }
+
+
+      body {
+      background-image: url("")
+      }
+
+      #mainheader {
+      text-align: center;
+      font-family: arial;
+      font-size: 55px;
+      color: purple;
+      }
+
+      #welcomepara {
+      text-align: center;
+      font-family: arial;
+      font-size: 30px;
+      color: #FFB6C1;
+      border-radius: 50px;
+      padding: 15px;
+      }
+   </style>
+</head>
