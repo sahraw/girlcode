@@ -1,0 +1,25 @@
+h1    {
+  color: #7B68EE;
+  text-align: center;
+  font-family: cambria;
+}
+body{
+  text-align: center;
+  color: #696969;
+  font-family:sans-serif;
+  font-size: 150%;
+}
+input{
+border: 10px;
+padding: 10px;
+font-size: 18px;
+}
+input[type="submit"]{
+background: #696969;
+color: white;
+}
+ul{
+  border: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
