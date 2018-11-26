@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <head>
   <style>
   ul.nav li{
@@ -44,50 +43,3 @@
 
    </style>
 </head>
-=======
-h1    {
-  color: #430FE0;
-  text-align: center;
-  font-family:cursive;
-  font-size: 65px;
-  font-weight: 600;
-}
-body{
-  text-align: center;
-  color: #430FE0;
-  font-family:sans-serif;
-  font-size: 100%;
-  .jumbotron
-  {  background-image: url('girlpower.jpg');
-   background-size: center;
-   .navbar{
-      background-color: #ffffff;
-      overflow: hidden;
-      font-family:Arial ;
-  }
-}
-}
-body, html {
-  height:100%;
-}
-{
-   background: url(girlpower.jpg);
-background-position: center;
-background-size: auto;
-
-}
-input{
-border: 10px;
-padding: 10px;
-font-size: 18px;
-}
-input[type="submit"]{
-background: #AE9EDF;
-color: white;
-}
-ul{
-  border: 20px;
-  padding: 20px;
-  font-size: 18px;
-}
->>>>>>> Sahraw-patch-1
