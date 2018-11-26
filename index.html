@@ -1,30 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>First site</title>
+<head>
+  <title>First site</title>
   <link rel="stylesheet" type"text/css" href="css/styles.css">
-
-
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-  <ul>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact Us</a></li>
-    <li><a href="#">Women of the week</a></li>
-  </ul>
-<h1>Girl Code</h1>
-  <img src=(".pictures/diversitywomen.jpg") alt="Diverse cartoon">
-<img url=("https://yourstory.com/wp-content/uploads/2015/12/women-in-tech.jpg")>
-  <p>
-    These are the people who are the changing faces of the rapidly changing
-    Tech industry.</p>
-      <p>Check out these women and what we're doing to make the industry more inclusive of women.</p>
-      <p> Sign-up below!</p>
 
-</body>
 <body>
-    <input type="email" placeholder="Your email">
-    <input type="submit">
+  <h1>Girl Code</h1>
+  <div class="topnav">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <a class="active" href="#home">Girl Code</a>
+      <a href="/blogpage.html">Blog</a>
+      <a href="/faqpage.html">FAQs</a>
+      <a href="/aboutpage.html">About Us</a>
+      <a href="/contactuspage.html">Contact</a>
+    </div>
+  </nav>
+  <div class="slideshow-container">
+    <div class="numbertext">1 / 3</div>
+    <img src="barrierswomenface.jpg" style="width:100%">
+    <div class="text">phenomenal women</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="diversitywomen.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">
 
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="techladder.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+
+
+  <slider>
+    <slide><p>Slide 1</p></slide>
+    <slide><p>Slide 2</p></slide>
+    <slide><p>Slide 3</p></slide>
+    <slide><p>Slide 4</p></slide>
+
+  </slider>
+
+  <div class="container">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/barrierswomenface.jpg" alt="Barriers" style="width:100%;">
+
+        </div>
+
+        <div class="item">
+          <img src="images/diversitywomen.jpg" alt="Diversity" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="images/inspirationaltech.jpg" alt="Inspirational" style="width:100%;">
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div id="mission">
+    <div class-"container">
+      These are the people who are the changing faces of the rapidly changing
+      Tech industry.
+      <p class="lead">Check out these phenomenal women and what we're doing to make the industry more inclusive of women.</p>
+      <p class="lead">Sign-up below!</p>
+    </div>
+  </div>
+
+  <div id='social-buttons'>
+    <button class='btn-twitter'>Twitter</button>
+    <button class='btn-facebook'>Facebook</button>
+    <button class='btn-pinterest'>Pinterest</button>
+  </div>
+  <br></br>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+
+
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="firt.js"></script>
 </body>
+
 </html>
