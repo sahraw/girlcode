@@ -1,0 +1,91 @@
+h1    {
+  color: white;
+  text-align: center;
+  font-family: Georgia; garamond; 'quick sand';
+  font-size: 150px;
+  font-weight: 600;
+
+
+}
+body{
+  text-align: center;
+  color: #FDE6E6;
+  font-family:'quick sand'; sans-serif; garamond;
+  font-size: 190;}
+
+  .topnav {
+   background-color: #ffffff;
+   overflow: hidden;
+   font-family:Arial ;
+}
+
+.topnav a {
+   float: left;
+   color: pink;
+   text-align: center;
+   padding: 40px 70px;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: arial; open-sans;
+   font-weight: 1000;
+}
+.topnav a:hover {
+   background-color: #ffffff;
+   color: gray;
+}
+
+.topnav a.active {
+   background-color: #ffffff;
+   color: gray;
+}
+.topnav .icon {
+   display: none;
+}
+.topnav-home{
+ font-family: verdana;
+ font-weight: 900;
+}
+
+background{
+  color:#FDE6E6;}
+
+  .boxed{
+    background-color:#CCC6CC;
+    padding: 60px;
+    width: 1000px;
+    border: 0px;
+    margin: 60px;
+    padding: 60px;
+    position: relative;
+    border-radius: 70px;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+    font-family: Georgia; garamound; 'quick sand';
+    font size: 120px;
+    font-weight: bolder;
+}
+p {
+  color:white
+  font-family: Lucida, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+body {
+  height:100%;
+}
+{
+  background: url(girlpower.jpg);
+  background-position: center;
+  background-size: auto;
+}
+input{
+  border: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"]{
+  background-color: purple;
+  color: purple;
+}
