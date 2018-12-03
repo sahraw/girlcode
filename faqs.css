@@ -1,5 +1,5 @@
 h1    {
-  color: white;
+  color: gray;
   text-align: center;
   font-family: Georgia; garamond; 'quick sand';
   font-size: 150px;
@@ -11,7 +11,8 @@ body{
   text-align: center;
   color: #FDE6E6;
   font-family:'quick sand'; sans-serif; garamond;
-  font-size: 190;}
+  font-size: 190;
+  background-color:#FDE6E6;}
 
   .topnav {
    background-color: #ffffff;
@@ -46,8 +47,6 @@ body{
  font-weight: 900;
 }
 
-background{
-  color:#FDE6E6;}
 
   .boxed{
     background-color:#CCC6CC;
