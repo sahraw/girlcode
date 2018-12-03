@@ -1,0 +1,110 @@
+h1    {
+  color: white;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight:600;
+
+
+}
+
+p {color: red;
+text-align: center;
+font-family: open-sans;
+font-size: 20px;}
+body{
+  text-align: center;
+  color: #FDE6E6;
+  font-family:Arial;
+  font-size: 170;
+background-color:#F5E9E9;}
+
+  .topnav {
+   background-color: #ffffff;
+   overflow: hidden;
+   font-family:Arial ;
+}
+
+.topnav a {
+   float: left;
+   color: pink;
+   text-align: center;
+   padding: 40px 70px;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: arial; open-sans;
+   font-weight: 1000;
+}
+.topnav a:hover {
+   background-color: #ffffff;
+   color: gray;
+}
+
+.topnav a.active {
+   background-color: #ffffff;
+   color: gray;
+}
+.topnav .icon {
+   display: none;
+}
+.topnav-home{
+ font-family: verdana;
+ font-weight: 900;
+}
+
+.social-buttons {
+  margin-bottom: 30px
+}
+
+
+
+  #contact-form
+  {
+    font-size: 20px;
+    color: gray;
+    border-radius: 5px;
+    padding: 0 40px;
+  }
+  .col-md-12
+  {
+    color: gray;
+  }
+  .input-group-addon
+  {
+  color: gray;
+  }
+  .form-group {
+      margin-bottom: 30px;
+  }
+
+.form_message {
+
+  padding: 40px;
+
+}
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 15px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /}
+    input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 20px;
+    border:center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form-group {
+  color: white
+padding: 12px
+border radius: 4px;
+}

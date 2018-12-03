@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First site</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link href='css/bootstrap.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="topnav">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <a class="active" href="#home">Home</a>
+        <a href="blogpage.html">Blog</a>
+        <a href="faqpage.html">FAQs</a>
+        <a href="aboutpage.html">Get to know Us</a>
+        <a href="contactuspage.html">Contact Us</a>
+      </div>
+  <h1> Contact</h2>
+    </nav>
+    <form>
+    <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="controls">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                      <h2 for="form_name">Name*</h2>
+                      <textarea id="form_name" name="Name" class="form-control" placeholder="Name*" rows="1" required="required" data-error="Please enter your name."></textarea>
+                      <div class="help-block with-errors"> </div>
+                        <div class="form-group">
+                            <h2 for="form_name">Email *</h2>
+                            <textarea id="form_name" name="Email" class="form-control" placeholder="Email*" rows="1" required="required" data-error="Please enter your name."></textarea>
+                            <div class="help-block with-errors"> </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <h2 for="form_message">Message *</h2>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Enter your message *" rows="8" required="required" data-error="Please,leave us a message."></textarea>
+                        <div class="help-block with-errors"></div></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-muted"><strong>*</strong> These fields are required</p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="messages"></div>
+    <div class="controls">
+    </form>
+  </body>
+      <div id='social-buttons'>
+        <a class="image-link" href="https://twitter.com/CodeFirstGirls" target="_blank">
+          <img src="twitter.png" width="50" height="50">
+        </a>
+        <a class="image-link" href="https://en-gb.facebook.com/codefirstgirls/">
+          <img src="facebook.png" width="50" height="50">
+        </a>
+      </div>
+    </html>
